@@ -56,7 +56,8 @@ Once the domains.conf has the domain name added, save the file (ctrl+o) and exit
 
 Run the docker container to generate the certificate by running the below command. It’s a single command in multiple lines for readability
 
-'''
+```
+
 sudo docker run \
     --name letsencrypt-dns \
     --volume ~/certificates:/etc/letsencrypt \
@@ -66,7 +67,7 @@ sudo docker run \
     --env 'LEXICON_CLOUDFLARE_TOKEN=< CLOUDFLARE ACCOUNT GLOBALAPI KEY' \
     adferrand/letsencrypt-dns
 
-'''
+```
 
 This will take approx 2 mins to verify ownership of domain and generate certificate. If the certificate is generated successfully you will see below output after running docker container
  
