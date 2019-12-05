@@ -34,21 +34,21 @@ The DNS management on freeenom is very slow and does not support API for adding 
 
 **Install docker on a linux server**
 
-Run the following commands to install docker on the linux server 
+Run the following commands to install docker on the linux server (The command may change based on your Ubuntu server setup, these commands are for reference)
 
-	sudo apt update
-	sudo apt install apt-transport-https ca-certificates curl software-properties-common
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
-	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-	sudo apt update
-	sudo apt install docker-ce
+	$ sudo apt update
+	$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+	$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
+	$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+	$ sudo apt update
+	$ sudo apt install docker-ce
 
 On the Linux server cli, run the following commands to run docker container to generate certificate
 
-	cd ~
-	mkdir ~/certificates
-	cd certificates
-	nano domains.conf
+	$ cd ~
+	$ mkdir ~/certificates
+	$ cd certificates
+	$ nano domains.conf
 	
 In the domains.conf file add the domain for which you want to generate certificate, you can either enter the top level domain ( example.com) or wild card domain (*.example.com) to create certificate for single top level domain or for wildcard domain
 
