@@ -1,7 +1,7 @@
 ## Requirements
 - Domain name (Domain name can be registered for free from freenom.com - Steps below)
 - Cloudflare free account to manage dns for the domain name)
-- An Ubuntu 18.04 server (We will run docker container on this server to generate certificate)
+- An Ubuntu server (We will run docker container on this server to generate certificate, Tested on Ubuntu 18.04 but may work on other versions too)
 
 ## Get free domain name from freenom.com
 1.	Navigate to [freenom.com](https://www.freenom.com/en/index.html?lang=en)
