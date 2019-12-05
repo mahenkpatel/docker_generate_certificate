@@ -29,7 +29,7 @@ The DNS management on freeenom is very slow and does not support API for adding 
 
 ![caa_record](https://user-images.githubusercontent.com/17384364/70235597-3d9ed800-1789-11ea-9654-cd3f9ba51adc.JPG)
 
-## Generate certificate for the domain.
+## Get API key from Cloudflare
 
 1.	From your cloudflare account get the global api key from the page 
  
