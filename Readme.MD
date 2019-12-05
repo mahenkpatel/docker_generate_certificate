@@ -75,8 +75,9 @@ This will take approx 2 mins to verify ownership of domain and generate certific
 Once the certificate is generated enter ctrl+c to stop the container.
 The certificate and private key will be stored in below location
 
+```
 /home/[UserName]/certificates/archive/[DomainName]/
-
+```
 **Only root account has access to this path so change the user to root before accessing this directory.**
 
 The directory will contain 4 files (cert1.pem, chain1.pem, fullchain1.pem, privkey1.pem)
