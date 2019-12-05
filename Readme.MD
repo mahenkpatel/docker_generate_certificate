@@ -90,9 +90,9 @@ The certificate and private key will be stored in below location
 
 The directory will contain 4 files (cert1.pem, chain1.pem, fullchain1.pem, privkey1.pem)
 
-- cert1.pem > Certificate file
-- chain1.pem > Root, intermediate cert
-- fullchain1.pem > Cert + chain
+- cert1.pem > End Server certificate file
+- chain1.pem > Intermediate cert
+- fullchain1.pem > End Server certificate + Intermediate
 - privkey1.pem > Private key of the certificate
 
 **The certificate will be valid for 3 months from the date of generation**
