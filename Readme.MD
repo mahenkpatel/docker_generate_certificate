@@ -1,4 +1,4 @@
-###### Requirements
+## Requirements
 - Domain name (Domain name can be registered for free from freenom.com - Steps below)
 - Cloudflare free account to manage dns for the domain name)
 - An Ubuntu 18.04 server (We will run docker container on this server to generate certificate)
