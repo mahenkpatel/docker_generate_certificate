@@ -21,7 +21,7 @@ The DNS management on freeenom is very slow and does not support API for adding 
 4.	It will take 5 mins to 30 mins for the nameservers to update, cloudflare will send an email once the nameserver is active and the domain is added to cloudflare
 5.	Once the domain name is activated in cloudflare the dns entries can be added in DNS tab under the  domain name in cloudflare
 
- 
+ ![cloudflare_dns_github](https://user-images.githubusercontent.com/17384364/70222692-551d9700-1770-11ea-878e-a9dca1931b2b.JPG)
 
 ## Generate certificate for the domain.
 
@@ -72,6 +72,7 @@ sudo docker run \
 
 This will take approx 2 mins to verify ownership of domain and generate certificate. If the certificate is generated successfully you will see below output after running docker container
  
+![Cert gen_github](https://user-images.githubusercontent.com/17384364/70222626-4b942f00-1770-11ea-9ed3-0548d427d932.JPG)
 
 Once the certificate is generated enter ctrl+c to stop the container.
 The certificate and private key will be stored in below location
