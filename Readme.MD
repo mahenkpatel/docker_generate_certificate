@@ -56,7 +56,7 @@ In the domains.conf file add the domain for which you want to generate certifica
 
 Once the domains.conf has the domain name added, save the file (ctrl+o) and exit the file (ctrl+x).
 
-Run the docker container to generate the certificate by running the below command. It’s a single command in multiple lines for readability
+Run the docker container to generate the certificate by running the below command. It’s a single command in multiple lines for readability. Please add your email address, cloudflare account email address, cloudflare global api key in the below command whereever mentioned.
 
 ```
 
@@ -66,7 +66,7 @@ sudo docker run \
     --env 'LETSENCRYPT_USER_MAIL=<EMAIL ADDRESS>' \
     --env 'LEXICON_PROVIDER=cloudflare' \
     --env 'LEXICON_CLOUDFLARE_USERNAME=<CLOUDFLARE ACCOUNT EMAIL ADDRESS>' \
-    --env 'LEXICON_CLOUDFLARE_TOKEN=< CLOUDFLARE ACCOUNT GLOBALAPI KEY' \
+    --env 'LEXICON_CLOUDFLARE_TOKEN=<CLOUDFLARE ACCOUNT GLOBALAPI KEY>' \
     adferrand/letsencrypt-dns
 
 ```
