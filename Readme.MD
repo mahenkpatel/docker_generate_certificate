@@ -5,7 +5,7 @@
 
 ## Get free domain name from freenom.com
 1.	Navigate to [freenom.com](https://www.freenom.com/en/index.html?lang=en)
-2.	Search for a domain name (It supports **.tk, .ml, .ga, .cf and .gq** top level domains)
+2.	Search for a domain name (It supports **.tk, .ml, .ga, .cf and .gq** top level domain, popular names may not be free)
 3.	Register the domain for 12 months (more than 12 months is not free but it can be renewed after 12 months for free again)
 
 ## Move the DNS name server from freenom to Cloudflare
