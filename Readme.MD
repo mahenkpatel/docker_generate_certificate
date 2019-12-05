@@ -74,8 +74,11 @@ This will take approx 2 mins to verify ownership of domain and generate certific
 
 Once the certificate is generated enter ctrl+c to stop the container.
 The certificate and private key will be stored in below location
-/home/<UserName>/certificates/archive/[DomainName]/
+
+/home/[UserName]/certificates/archive/[DomainName]/
+
 **Only root account has access to this path so change the user to root before accessing this directory.**
+
 The directory will contain 4 files (cert1.pem, chain1.pem, fullchain1.pem, privkey1.pem)
 
 - cert1.pem > Certificate file
@@ -84,5 +87,6 @@ The directory will contain 4 files (cert1.pem, chain1.pem, fullchain1.pem, privk
 - privkey1.pem > Private key of the certificate
 
 **The certificate will be valid for 3 months from the date of generation**
+
 Letsencrypt will send an email to remind to renew the cert when the certificate is about to expire on the email address provided while generating the certificate
 
