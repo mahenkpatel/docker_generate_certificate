@@ -25,6 +25,10 @@ The DNS management on freeenom is very slow and does not support API for adding 
 
  ![cloudflare_dns_github](https://user-images.githubusercontent.com/17384364/70222692-551d9700-1770-11ea-878e-a9dca1931b2b.JPG)
 
+7.	Add a CAA record to the domain as shown in the below screenshot. Using CAA records we are authorizing letsencrypt to generate certificate for this domain.
+
+![caa_record](https://user-images.githubusercontent.com/17384364/70235597-3d9ed800-1789-11ea-9654-cd3f9ba51adc.JPG)
+
 ## Generate certificate for the domain.
 
 1.	From your cloudflare account get the global api key from the page 
