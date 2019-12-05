@@ -1,15 +1,17 @@
-Requirements
-1.	Domain name (Domain name can be registered for free from freenom.com)
-2.	Cloudflare free account to manage dns for the domain name)
-3.	An Ubuntu 18.04 server (We will run docker container on this server to generate certificate)
+**Requirements**
+-Domain name (Domain name can be registered for free from freenom.com - Steps below)
+-Cloudflare free account to manage dns for the domain name)
+-An Ubuntu 18.04 server (We will run docker container on this server to generate certificate)
 
-Get free domain name from freenom.com
-1.	Navigate to freenom.com
-2.	Search for a domain name (It supports .tk, .ml, .ga, .cf and .gq top level domains)
-3.	Register the domain for 12 months (more than 12 months is not free, it can be renewed after 12 months for free again)
+**Get free domain name from freenom.com**
+1.	Navigate to [freenom.com](https://www.freenom.com/en/index.html?lang=en)
+2.	Search for a domain name (It supports **.tk, .ml, .ga, .cf and .gq** top level domains)
+3.	Register the domain for 12 months (more than 12 months is not free but it can be renewed after 12 months for free again)
 
-Move the DNS name server from freenom to Cloudflare
+**Move the DNS name server from freenom to Cloudflare**
+
 The DNS management on freeenom is very slow and does not support API for automating certificate generation. Cloudflare’s DNS management is much faster, easier and it supports API we need later to generate certificate for the domain
+
 1.	Create a free account on cloudflare
 2.	After logging in to cloudflare it will ask to add the domain. Once domain is added cloudflare will give 2 nameservers to add to freenom to migrate the nameserver
 3.	Add these 2 name servers in your freenom account in your domain management under Management Tools >> Nameservers
@@ -19,7 +21,7 @@ The DNS management on freeenom is very slow and does not support API for automat
 
  
 
-Generate wildcard certificate for the domain.
+**Generate wildcard certificate for the domain.**
 
 1.	From your cloudflare account get the global api key from the page 
  
