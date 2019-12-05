@@ -3,12 +3,12 @@
 - Cloudflare free account to manage dns for the domain name)
 - An Ubuntu 18.04 server (We will run docker container on this server to generate certificate)
 
-**Get free domain name from freenom.com**
+## Get free domain name from freenom.com
 1.	Navigate to [freenom.com](https://www.freenom.com/en/index.html?lang=en)
 2.	Search for a domain name (It supports **.tk, .ml, .ga, .cf and .gq** top level domains)
 3.	Register the domain for 12 months (more than 12 months is not free but it can be renewed after 12 months for free again)
 
-**Move the DNS name server from freenom to Cloudflare**
+## Move the DNS name server from freenom to Cloudflare
 
 The DNS management on freeenom is very slow and does not support API for adding dns records and automating certificate generation. Cloudflare’s DNS management is much faster, easier and it supports API we need later to generate certificate for the domain.
 
@@ -23,14 +23,14 @@ The DNS management on freeenom is very slow and does not support API for adding 
 
  
 
-**Generate wildcard certificate for the domain.**
+## Generate certificate for the domain.
 
 1.	From your cloudflare account get the global api key from the page 
  
 
 2.	Clicking on View button will ask to verify your cloudflare account password and once verified will show a hexadecimal API key ( The API key is as important as cloudflare account password, keep it secure)
 
-Generate certificate using a Linux server and Docker
+## Generate certificate using a Linux server and Docker
 
 **Install docker on a linux server**
 
