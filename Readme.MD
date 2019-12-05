@@ -27,6 +27,7 @@ The DNS management on freeenom is very slow and does not support API for adding 
 
 1.	From your cloudflare account get the global api key from the page 
  
+ ![Cloudflare Global API Key](https://user-images.githubusercontent.com/17384364/70222146-8fd2ff80-176f-11ea-9268-071749adee91.JPG)
 
 2.	Clicking on View button will ask to verify your cloudflare account password and once verified will show a hexadecimal API key ( The API key is as important as cloudflare account password, keep it secure)
 
