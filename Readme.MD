@@ -16,7 +16,7 @@ The DNS management on freeenom is very slow and does not support API for adding 
 2.	After logging in to cloudflare it will ask to add the domain. Once domain is added cloudflare will give 2 nameservers to add to freenom to migrate the dns management
 3.	Add these 2 name servers in your freenom account in your domain management under Management Tools >> Nameservers
 
- https://user-images.githubusercontent.com/17384364/70210003-9a819a80-1757-11ea-9f7c-1834db639589.JPG
+ ![Nameservers](https://user-images.githubusercontent.com/17384364/70210003-9a819a80-1757-11ea-9f7c-1834db639589.JPG)
  
 4.	It will take 5 mins to 30 mins for the nameservers to update, cloudflare will send an email once the nameserver is active and the domain is added to cloudflare
 5.	Once the domain name is activated in cloudflare the dns entries can be added in DNS tab under the  domain name in cloudflare
