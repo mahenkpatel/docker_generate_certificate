@@ -13,7 +13,8 @@
 The DNS management on freeenom is very slow and does not support API for adding dns records and automating certificate generation. Cloudflare’s DNS management is much faster, easier and it supports API we need later to generate certificate for the domain.
 
 1.	Create a free account on cloudflare
-2.	After logging in to cloudflare it will ask to add the domain. Once domain is added cloudflare will give 2 nameservers to add to freenom to migrate the dns management
+2.	After logging in to cloudflare it will ask to add the domain. Once the domain is registered it may take some time for cloudflare to detect the domain, if you get an error, please wait for 30 mins and try to add the domain name again.
+Once domain is added cloudflare will give 2 nameservers to add to freenom to migrate the dns management
 3.	Add these 2 name servers in your freenom account in your domain management under Management Tools >> Nameservers
 
  ![Nameservers](https://user-images.githubusercontent.com/17384364/70210003-9a819a80-1757-11ea-9f7c-1834db639589.JPG)
